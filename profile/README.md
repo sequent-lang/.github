@@ -1,172 +1,118 @@
-Sequent Logic
-Logic programming for rendered sequences
-Show Image
-Show Image
-Show Image
-Show Image
+# Sequent Logic
 
-Overview
-Sequent Logic (or Sequent for short) is a declarative logic programming language designed for complex rendering pipelines, VFX workflows, and media processing systems. By combining Prolog-style inference with native Neo4j graph database integration, Sequent Logic enables you to define what should happen in your pipeline rather than prescribing how to execute each step.
-The Problem
-Traditional rendering pipelines rely on imperative scripts where dependencies are manually managed, execution order is rigidly specified, and changes cascade into brittle, error-prone code. As pipelines grow in complexity—spanning computer vision, 3D rendering, video editing, and asset management—maintaining these systems becomes increasingly difficult.
-The Solution
-Sequent Logic treats pipelines as logical relationships. You declare facts about your assets, define rules about dependencies, and query the system for answers. The inference engine automatically resolves dependencies, determines optimal execution order, and adapts to changes in your pipeline structure.
-⚠️ Project Status
-Sequent Logic is in active early development and is not yet ready for production use. We are currently building the core language infrastructure. Contributions, feedback, and early adopters are welcome, but expect breaking changes as the language evolves.
-Quick Example
-sequent% Define a shot and its requirements
+**Logic programming for rendered sequences**
+
+Sequent Logic (or Sequent for short) is a declarative programming language that combines Prolog-style inference with Neo4j graph queries for rendering pipelines, VFX workflows, and media processing systems.
+
+## 🎯 What Makes Sequent Logic Different?
+
+Instead of writing imperative scripts that specify *how* to execute each step:
+
+```python
+# Traditional approach - brittle and procedural
+run_denoise(shot_010)
+run_color_grade(shot_010)
+run_composite(shot_010)
+```
+
+Write declarative logic that defines *what* relationships exist:
+
+```sequent
+% Sequent Logic - declarative and queryable
 shot(shot_010).
 requires(shot_010, denoise).
 requires(shot_010, color_grade).
 requires(shot_010, composite).
 
-% Define dependencies between stages
 depends_on(composite, color_grade).
 depends_on(color_grade, denoise).
 
-% Query: What's the correct render order?
+% Query: What's the optimal render order?
 ?- render_order(shot_010, Order).
-% Result: Order = [denoise, color_grade, composite]
+% Result: [denoise, color_grade, composite]
+```
 
-% Query with graph integration (Neo4j/Cypher)
-?- uses_asset(Shot, 'character_model_v3'),
-   modified_since_last_render(Shot).
-% Returns all shots using this asset that need re-rendering
-Key Features
+The inference engine automatically resolves dependencies, determines execution order, and adapts to changes.
 
-Declarative Logic: Define relationships and constraints, not procedural steps
-Graph-Native: Built-in Neo4j integration with native Cypher query support
-Temporal Reasoning: Frame-based and timecode operations for media workflows
-Automatic Optimization: Inference engine determines optimal execution paths
-Domain-Specific: Purpose-built predicates for rendering, compositing, and asset management
-Extensible: Python integration for custom predicates and tool bindings
+## 🚀 Core Projects
 
-Installation
-Sequent Logic is not yet published to PyPI. For development installation:
-bashgit clone https://github.com/sequent-lang/sequent.git
-cd sequent
-pip install -e ".[dev]"
-Requirements:
+- **[sequent](https://github.com/sequent-lang/sequent)** - Language implementation and interpreter
+- **[sequent-docs](https://github.com/sequent-lang/sequent-docs)** - Documentation and tutorials *(coming soon)*
+- **[sequent-examples](https://github.com/sequent-lang/sequent-examples)** - Example programs and patterns *(coming soon)*
+- **[sequent-tools](https://github.com/sequent-lang/sequent-tools)** - IDE extensions and tooling *(coming soon)*
 
-Python 3.8 or higher
-Neo4j 5.0+ (optional, for graph features)
+## ✨ Key Features
 
-Usage
-bash# Run a Sequent program
-sequent run pipeline.seq
+- **Declarative Logic**: Define relationships and constraints, not procedural steps
+- **Graph-Native**: Built-in Neo4j integration with native Cypher query support
+- **Temporal Reasoning**: Frame-based and timecode operations for media workflows
+- **Automatic Optimization**: Inference engine determines optimal execution paths
+- **Domain-Specific**: Purpose-built predicates for rendering and asset management
+- **Extensible**: Python integration for custom predicates and tool bindings
 
-# Interactive REPL
-sequent repl
+## 🎬 Use Cases
 
-# Validate syntax
-sequent check *.seq
-
-# Show help
-sequent --help
-Python Integration
-pythonfrom sequent import Engine
-
-# Initialize engine
-engine = Engine()
-
-# Load Sequent rules
-engine.consult('pipeline.seq')
-
-# Execute queries
-results = engine.query('render_order(shot_010, Order)')
-print(results)  # [{'Order': ['denoise', 'color_grade', 'composite']}]
-
-# With Neo4j integration
-engine.connect_neo4j('bolt://localhost:7687')
-impacts = engine.query('impact_analysis("character_model_v3", Affected)')
-Documentation
-
-Language Tutorial - Step-by-step introduction (coming soon)
-Language Reference - Complete specification (coming soon)
-Examples - Real-world examples (coming soon)
-API Documentation - Python integration guide (coming soon)
-
-Use Cases
 Sequent Logic is designed for scenarios where complex dependencies, temporal relationships, and asset management intersect:
 
-VFX Pipeline Management: Track shot dependencies, asset versions, and render requirements
-Sports Video Analysis: Coordinate computer vision, tracking data, and 3D visualization
-Architectural Visualization: Manage scene composition, lighting, and rendering workflows
-Scientific Visualization: Define data processing pipelines with automatic optimization
-Game Cinematics: Coordinate animation, rendering, and post-processing stages
+- **VFX Pipelines**: Track shot dependencies, asset versions, and render requirements
+- **Sports Analytics**: Coordinate computer vision, tracking data, and 3D visualization
+- **Architectural Viz**: Manage scene composition, lighting, and rendering workflows
+- **Scientific Viz**: Define data processing pipelines with automatic optimization
+- **Game Cinematics**: Coordinate animation, rendering, and post-processing
 
-Roadmap
-v0.1.0 - Foundation (Target: Month 2)
+## ⚠️ Project Status
 
- Project structure and organization
- Lexer and parser implementation
- Basic unification algorithm
- Simple SLD resolution engine
- Core predicate library
+**Alpha Development** - Sequent Logic is under active development and is not yet ready for production use. We are currently building:
 
-v0.2.0 - Graph Integration (Target: Month 3)
+- [x] Project foundation and organization
+- [ ] Parser and lexer implementation
+- [ ] Inference engine (unification + backtracking)
+- [ ] Neo4j integration with Cypher support
+- [ ] Standard library for rendering predicates
+- [ ] CLI tool and REPL
+- [ ] VS Code extension
 
- Neo4j driver integration
- Cypher query execution
- Graph pattern matching
- Hybrid query optimization
+Expected first alpha release: **v0.1.0** (target: 2-3 months)
 
-v0.3.0 - Standard Library (Target: Month 4)
+## 🤝 Get Involved
 
- Rendering predicates
- Temporal logic operators
- Asset management utilities
- Pipeline optimization predicates
+We welcome contributions from developers, researchers, VFX professionals, and anyone interested in declarative programming or rendering pipelines.
 
-v0.4.0 - Tooling (Target: Month 5)
+**Ways to Contribute:**
+- **Code**: Implement language features, fix bugs, add predicates
+- **Documentation**: Write tutorials, improve examples, translate docs
+- **Testing**: Try the language and report bugs or usability issues
+- **Design**: Participate in language design discussions
+- **Examples**: Share real-world use cases and example programs
 
- CLI tool with REPL
- VS Code extension
- Syntax highlighting for popular editors
- Debugging utilities
+**Getting Started:**
+- Read our [Contributing Guide](https://github.com/sequent-lang/.github/blob/main/CONTRIBUTING.md)
+- Join [GitHub Discussions](https://github.com/sequent-lang/sequent/discussions)
+- Follow [@sequentlang](https://twitter.com/sequentlang) for updates
+- Check out [good first issues](https://github.com/sequent-lang/sequent/labels/good%20first%20issue)
 
-v1.0.0 - Stable Release (Target: Month 12)
+## 📚 Resources
 
- Complete language specification
- Production-ready interpreter
- Comprehensive documentation
- Integration examples for major VFX tools
+- **Website**: [sequent-lang.org](https://sequent-lang.org) *(coming soon)*
+- **Tutorial**: [Getting Started Guide](https://sequent-lang.org/learn/tutorial) *(coming soon)*
+- **Language Spec**: [Reference Documentation](https://sequent-lang.org/docs/reference) *(coming soon)*
+- **Community**: [Discord Server](https://discord.gg/sequent) *(coming soon)*
 
-Contributing
-We welcome contributions from developers, researchers, VFX professionals, and anyone interested in declarative programming or rendering pipelines. Sequent Logic is an AI-assisted project, and we embrace contributions from both human developers and AI-augmented workflows.
-Ways to Contribute:
+## 🌟 Philosophy
 
-Report bugs and request features via GitHub Issues
-Improve documentation and write tutorials
-Implement language features or standard library predicates
-Share example programs and use cases
-Test the language and provide feedback
+Sequent Logic is an AI-assisted language project. We believe the future of programming language design involves collaboration between human creativity and AI capabilities. We embrace:
 
-See our Contributing Guide for details.
-Community
+- **Open Development**: Building in the open from day one
+- **AI Collaboration**: Leveraging AI for design, implementation, and documentation
+- **Community-Driven**: Shaped by real-world needs of practitioners
+- **Academic Rigor**: Grounded in formal logic and proof theory
 
-GitHub Discussions: Ask questions and share ideas
-Discord: Join our community server (coming soon)
-Twitter: Follow @sequentlang for updates
-Mailing List: Subscribe for announcements (coming soon)
+## 📄 License
 
-Inspiration
-Sequent Logic draws from several established paradigms and systems:
+All Sequent Logic projects are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) - a permissive open-source license.
 
-Prolog - Logic programming foundation and inference mechanisms
-Datalog - Declarative database queries and guaranteed termination
-Cypher - Graph pattern matching and declarative graph queries
-Mercury - Strong typing and mode systems for logic languages
-Sequent Calculus - Formal proof theory (Gentzen, 1934)
+---
 
-The name "Sequent Logic" reflects both the mathematical concept of sequents (Γ ⊢ Δ) from proof theory and the sequential nature of frame-based media processing.
-License
-Sequent Logic is licensed under the Apache License 2.0. This is a permissive open-source license that allows commercial use, modification, and distribution.
-Acknowledgments
-Sequent Logic is an AI-assisted language project, created through collaboration between human vision and AI capabilities. We believe the future of programming language design involves leveraging both human creativity and AI assistance.
-Project Creator: [Your Name]
-AI Collaboration: Claude (Anthropic)
-Special Thanks: The Prolog, Datalog, and Neo4j communities for foundational work
+**Built for the rendering age, designed with logic** ✨
 
-Built for the rendering age, designed with logic ✨
-For questions, feedback, or collaboration opportunities, open a Discussion or reach out via email.
+*Questions? Open a [Discussion](https://github.com/sequent-lang/sequent/discussions) or reach out at hello@sequent-lang.org*
