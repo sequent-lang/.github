@@ -1,5 +1,6 @@
 [<p align="center">
   <img src="https://raw.githubusercontent.com/sequent-lang/sequent/main/Sequent_Logic_banner.png" alt="Sequent Logic Banner" width="100%">
+  
 </p>](https://raw.githubusercontent.com/sequent-lang/sequent/main/Sequent_Logic_banner.png)
 
 
