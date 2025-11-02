@@ -124,7 +124,7 @@ We welcome contributions from developers, researchers, VFX professionals, and an
 - Read our [Contributing](https://github.com/sequent-lang/sequent/blob/main/CONTRIBUTING.md)
 - Join [GitHub Discussions](https://github.com/sequent-lang/sequent/discussions)
 - Follow [@sequentlang](https://twitter.com/sequentlang) for updates
-- Check out [good first issues](https://github.com/sequent-lang/sequent/labels/good%20first%20issue)
+- Check out [good first issues](https://github.com/sequent-lang/sequent/blob/main/GOOD_FIRST_ISSUES.md)
 
 ## 📚 Resources
 
