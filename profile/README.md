@@ -121,7 +121,7 @@ We welcome contributions from developers, researchers, VFX professionals, and an
 - **Examples**: Share real-world use cases and example programs
 
 **Getting Started:**
-- Read our [(https://github.com/sequent-lang/sequent/blob/f2483c95446348e0ef1351dc2ec7976ae09a9066/CONTRIBUTING.md)](https://github.com/sequent-lang/sequent/blob/f2483c95446348e0ef1351dc2ec7976ae09a9066/CONTRIBUTING.md)
+- Read our [Contributing](CONTRIBUTING.md
 - Join [GitHub Discussions](https://github.com/sequent-lang/sequent/discussions)
 - Follow [@sequentlang](https://twitter.com/sequentlang) for updates
 - Check out [good first issues](https://github.com/sequent-lang/sequent/labels/good%20first%20issue)
