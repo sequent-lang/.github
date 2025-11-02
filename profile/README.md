@@ -1,12 +1,5 @@
 
 
-![Sequent Logic Banner](assets/sequent-logic-banner.png)
-
-<p align="center">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Alpha%20Development-orange?style=for-the-badge">
-</p>
-
-
 # Sequent Logic
 
 **Logic programming for rendered sequences**
