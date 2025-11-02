@@ -12,22 +12,6 @@
 [![Activity: Active Development](https://img.shields.io/badge/Activity-Active%20Development-teal?style=for-the-badge)](https://github.com/sequent-lang/sequent)
 
 
-
-<div align="center">
-    <a href="https://sequent-lang.org">
-        <img src="[URL_TO_YOUR_BANNER_IMAGE]" alt="Sequent Logic: ACHIEVE OPERATIONAL AUTHORITY." width="100%">
-    </a>
-</div>
-
-<p align="center">
-    <img src="[URL_TO_INFERENCE_CORE_BADGE]" alt="Inference Core: Prolog/Datalog">
-    <img src="[URL_TO_GRAPH_BACKEND_BADGE]" alt="Graph Backend: Neo4j Graph">
-    <img src="[URL_TO_CORE_FEATURE_BADGE]" alt="Core Feature: Temporal Logic">
-    <img src="[URL_TO_LICENSE_BADGE]" alt="License: Apache 2.0">
-    <img src="[URL_TO_STATUS_BADGE]" alt="Status: Alpha">
-    <img src="[URL_TO_ACTIVITY_BADGE]" alt="Activity: Active Development">
-</p>
-
 # Achieve Operational Authority. By mastering Dynamic Topology and Temporal Logic, Sequent exposes the subtle, systemic failure points—turning system-level ambiguity into predictable, actionable truth.
 
 **Logic programming for rendered sequences**
