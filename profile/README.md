@@ -2,11 +2,6 @@
   <img src="https://raw.githubusercontent.com/sequent-lang/sequent/main/Sequent_Logic_banner.png" alt="Sequent Logic Banner" width="100%">
 </p>
 
-
-  
-</p>](https://raw.githubusercontent.com/sequent-lang/sequent/main/Sequent_Logic_banner.png)
-
-
 <div align="center">
     <a href="https://sequent-lang.org">
         <img src="[URL_TO_YOUR_BANNER_IMAGE]" alt="Sequent Logic: ACHIEVE OPERATIONAL AUTHORITY." width="100%">
