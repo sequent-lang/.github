@@ -3,7 +3,14 @@
 </p>
 
 
-Achieve Operational Authority
+[![Sequent Logic: ACHIEVE OPERATIONAL AUTHORITY](https://img.shields.io/badge/Sequent%20Logic-ACHIEVE%20OPERATIONAL%20AUTHORITY-blue?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+[![Inference Core: Prolog/Datalog](https://img.shields.io/badge/Inference%20Core-Prolog%2FDatalog-orange?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+[![Graph Backend: Neo4j Graph](https://img.shields.io/badge/Graph%20Backend-Neo4j%20Graph-green?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+[![Core Feature: Temporal Logic](https://img.shields.io/badge/Core%20Feature-Temporal%20Logic-purple?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-red?style=for-the-badge)](https://github.com/sequent-lang/sequent/blob/main/LICENSE)
+[![Status: Alpha](https://img.shields.io/badge/Status-Alpha-yellow?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+[![Activity: Active Development](https://img.shields.io/badge/Activity-Active%20Development-teal?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+
 
 
 <div align="center">
