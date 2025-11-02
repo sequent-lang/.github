@@ -1,4 +1,3 @@
-https://github.com/sequent-lang/sequent/blob/d6df8b7bc05ed8a1ad51a2a2d237fcd14af16e18/Sequent_Logic_banner.png
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sequent-lang/sequent/main/Sequent_Logic_banner.png" alt="Sequent Logic Banner" width="100%">
