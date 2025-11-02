@@ -3,13 +3,18 @@
 </p>
 
 
-[![Sequent Logic: ACHIEVE OPERATIONAL AUTHORITY](https://img.shields.io/badge/Sequent%20Logic-ACHIEVE%20OPERATIONAL%20AUTHORITY-blue?style=for-the-badge)](https://github.com/sequent-lang/sequent)
-[![Inference Core: Prolog/Datalog](https://img.shields.io/badge/Inference%20Core-Prolog%2FDatalog-orange?style=for-the-badge)](https://github.com/sequent-lang/sequent)
-[![Graph Backend: Neo4j Graph](https://img.shields.io/badge/Graph%20Backend-Neo4j%20Graph-green?style=for-the-badge)](https://github.com/sequent-lang/sequent)
-[![Core Feature: Temporal Logic](https://img.shields.io/badge/Core%20Feature-Temporal%20Logic-purple?style=for-the-badge)](https://github.com/sequent-lang/sequent)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-red?style=for-the-badge)](https://github.com/sequent-lang/sequent/blob/main/LICENSE)
-[![Status: Alpha](https://img.shields.io/badge/Status-Alpha-yellow?style=for-the-badge)](https://github.com/sequent-lang/sequent)
-[![Activity: Active Development](https://img.shields.io/badge/Activity-Active%20Development-teal?style=for-the-badge)](https://github.com/sequent-lang/sequent)
+<p align="center">
+
+<img src="https://img.shields.io/badge/Sequent_Logic-ACHIEVE_OPERATIONAL_AUTHORITY-blueviolet?style=flat-square">
+<img src="https://img.shields.io/badge/Inference_Core-Prolog%2FDatalog-ff8c00?style=flat-square">
+<img src="https://img.shields.io/badge/Graph_Backend-Neo4j_Graph-0e76a8?style=flat-square">
+<img src="https://img.shields.io/badge/Core_Feature-Temporal_Logic-6a5acd?style=flat-square">
+<img src="https://img.shields.io/badge/License-Apache_2.0-green?style=flat-square">
+<img src="https://img.shields.io/badge/Status-Alpha-yellow?style=flat-square">
+<img src="https://img.shields.io/badge/Activity-Active_Development-brightgreen?style=flat-square">
+
+</p>
+
 
 
 # Achieve Operational Authority. By mastering Dynamic Topology and Temporal Logic, Sequent exposes the subtle, systemic failure points—turning system-level ambiguity into predictable, actionable truth.
