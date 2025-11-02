@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/sequent-lang/sequent/blob/d6df8b7bc05ed8a1ad51a2a2d237fcd14af16e18/Sequent_Logic_banner.png?raw=true" alt="Sequent Logic Banner" width="100%">
+  <img src="https://github.com/sequent-lang/sequent/blob/main/Sequent_%20Logic_Banner.png?raw=true" alt="Sequent Logic Banner" width="100%">
 </p>
+
 
 Achieve Operational Authority
 
