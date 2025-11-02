@@ -1,3 +1,40 @@
+<!-- Badges Section for Sequent Logic --><p align="center">
+  <!-- GitHub Stars --><a href="https://github.com/sequentlogic/sequent/stargazers" target="_blank">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/sequentlogic/sequent?style=for-the-badge&logo=github&color=33CC99">
+  </a>
+  <!-- License --><a href="https://github.com/sequentlogic/sequent/blob/main/LICENSE" target="_blank">
+    <img alt="License" src="https://img.shields.io/github/license/sequentlogic/sequent?style=for-the-badge&color=800080">
+  </a>
+  <!-- Project Status (Custom Static) --><img alt="Status" src="https://img.shields.io/badge/Status-Alpha%20Development-orange?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMjQgMjQiIGVzaGFwZT0iaGVsZGVyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMiwyYzUuNiwwLDEwLDQuNCwxMCwxMHMtNC40LDEwLTEwLDEwUzIsMTcuNiwxMiwxMlMyNiwxMiwyNiwxMiIvPgo8L3N2Zz4=&logoColor=white">
+  <!-- Discord --><a href="https://discord.gg/your-discord-invite" target="_blank"> <!-- REPLACE WITH YOUR ACTUAL DISCORD INVITE --><img alt="Discord" src="https://img.shields.io/badge/Join%20the%20Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+  </a>
+  <!-- Docs / Language Spec --><a href="https://github.com/sequentlogic/sequent-docs" target="_blank">
+    <img alt="Docs" src="https://img.shields.io/badge/Language%20Spec-online-blue?style=for-the-badge&logo=readthedocs&logoColor=white">
+  </a>
+  <!-- GitHub Contributors --><a href="https://github.com/sequentlogic/sequent/graphs/contributors" target="_blank">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/sequentlogic/sequent?style=for-the-badge&color=blueviolet">
+  </a>
+  <!-- Python Version (example, adjust if not Python) --><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white">
+  <!-- Neo4j Integration (Custom Static) --><img alt="Neo4j" src="https://img.shields.io/badge/Graph%20Native-Neo4j-008C8C?style=for-the-badge&logo=neo4j&logoColor=white">
+  <!-- Prolog-Style (Custom Static) --><img alt="Prolog-Style" src="https://img.shields.io/badge/Inference-Prolog--Style-darkgreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMjQgMjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE2LDEwSDguNWMwLDAsMC4yLTAuMiwwLjMtMC40YzAuMi0wLjIsMC40LTAuNSwwLjUtMC44QzkuNyw4LjQsOS45LDcuOSwxMC4xLDcuMyBDMTAuNCw2LjYsMTAuNyw2LDExLDUuNUgxNkwxNiwxMFoiLz4KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE2LDEzSDh2MUgxNlYxM3oiLz4KPC9zdmc+Cg=="&logoColor=white">
+</p>
+
+<!-- End Badges Section -->```
+
+---
+
+**How to Use:**
+
+1.  **Copy the entire Markdown block** above.
+2.  **Paste it** at the very top of your `README.md` file on GitHub.
+3.  **Important:** Remember to replace `https://discord.gg/your-discord-invite` with your *actual* Discord invite link.
+4.  You can easily adjust colors, add more badges, or change logos by visiting [shields.io](https://shields.io/) and experimenting with their generator.
+
+This will give your GitHub README a professional, information-rich header that instantly communicates key aspects of Sequent Logic, just like Meltano!
+
+
+
+
 # Sequent Logic
 
 **Logic programming for rendered sequences**
