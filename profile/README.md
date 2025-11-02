@@ -1,4 +1,8 @@
 
+
+![Sequent Logic Banner](assets/sequent-logic-banner.png)
+
+
 # Sequent Logic
 
 **Logic programming for rendered sequences**
