@@ -21,7 +21,7 @@ Achieve Operational Authority
     <img src="[URL_TO_ACTIVITY_BADGE]" alt="Activity: Active Development">
 </p>
 
-# Sequent Logic
+# Achieve Operational Authority. By mastering Dynamic Topology and Temporal Logic, Sequent exposes the subtle, systemic failure points—turning system-level ambiguity into predictable, actionable truth.
 
 **Logic programming for rendered sequences**
 
